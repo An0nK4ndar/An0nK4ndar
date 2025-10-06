@@ -40,7 +40,7 @@ jobs:
         echo "=== Creating file ==="
         echo "commit at $(date)" >> commits.txt
         echo "number: $(wc -l < commits.txt 2>/dev/null || echo 1)" >> commits.txt
-        echo "--- balxzzy ---" >> commits.txt
+        echo "--- An0nK4ndar ---" >> commits.txt
         echo "=== File created ==="
         cat commits.txt | tail -3
         
